@@ -24,7 +24,7 @@ function SingleProduct() {
       <div className="row">
         <div className="form-holder1">
           <h1 className="color">{product.productname}</h1>
-          <img  src={`http://localhost:4000/${product.image}`} className="img-fluid" alt={product.productname} />
+          <img  src={`https://animatesbackend.onrender.com${product.image}`} className="img-fluid" alt={product.productname} />
 
 
           <p>{product.description}</p>
