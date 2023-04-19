@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 // import image1 from './img/registration.jpg'
 import axios from 'axios';
-import {useNavigate,Link, Navigate} from 'react-router-dom';
-import React, {useRef, useState} from 'react';
+import {Link} from 'react-router-dom';
+import React, { useState} from 'react';
 import {ToastContainer,toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './reset.css'
@@ -15,15 +15,15 @@ import './reset.css'
 
 
 function NewPassword(props) {
-    const emailRef=useRef(); 
-   const navigate=useNavigate();
+    // const emailRef=useRef(); 
+//    const navigate=useNavigate();
    const [inputField,setInputField]=useState({
     otpcode:'',
     password:'',
     cpassword:''
    })
 
-   const history=useNavigate()
+//    const history=useNavigate()
    const[errField,setErrField]=useState({
     otpcodeErr:'',
     passwordErr:'',

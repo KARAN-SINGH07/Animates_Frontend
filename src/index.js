@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 
 
 import './index.css';
-import App from './App';
 // import '../node_modules/public/css/styles.css'
 import Header from './components/header/index'
 import reportWebVitals from './reportWebVitals';
@@ -28,7 +27,7 @@ import SingleProduct from './components/singleproduct/index';
 // import MainContent from './components/mainContent'
 // import Popper from 'popper.js';
 // import $ from 'jquery';
-import { BrowserRouter as Router , Routes, Route, Navigate, Path } from "react-router-dom";
+import { BrowserRouter as Router , Routes, Route} from "react-router-dom";
 // import  product_card from '../data/product_data';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

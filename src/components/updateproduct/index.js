@@ -34,7 +34,7 @@ function UpdateProduct() {
 		try {
 			const url = "https://animatesbackend.onrender.com/productlisting/updateproduct";
 			const { data: res } = await axios.post(url, data);
-			
+			console.log(res)
 		} catch (error) {
 			if (
 				error.response &&

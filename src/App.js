@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import {useState,useEffect,useMemo} from "react";
 
 function App() {
   // const[allHouses,setAllHouses]=useState([]);

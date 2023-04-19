@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 import React from 'react';
 import './userdetails.css'
 
@@ -10,7 +10,7 @@ class UserDetails extends React.Component{
     <div class="container d-flex justify-content-center ">
         <div class="card p-3 py-4">
             <div class="text-center"> 
-            <img src="https://i.imgur.com/stD0Q19.jpg" width="100" class="rounded-circle"/>
+            <img alt='' src="https://i.imgur.com/stD0Q19.jpg" width="100" class="rounded-circle"/>
                 <h3 class="mt-2">Maria Smantha</h3>
                 <span class="mt-1 clearfix">Android Developer</span>
                 

@@ -44,6 +44,7 @@ function AddProduct() {
           "Content-Type": "multipart/form-data"
         }
       });
+      console.log(res)
       toast.success("Product Added Successfully");
     } catch (error) {
       if (
