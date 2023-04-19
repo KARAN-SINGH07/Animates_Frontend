@@ -31,7 +31,7 @@ function AddProduct() {
 	const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:4000/productlisting/addproduct";
+      const url = "https://animatesbackend.onrender.com/productlisting/addproduct";
       const formData = new FormData();
       formData.append("productname", data.productname);
       formData.append("description", data.description);

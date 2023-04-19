@@ -37,7 +37,7 @@ const [data, setData] = useState({ email: "", password: "" });
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:4000/admin/login";
+			const url = "https://animatesbackend.onrender.com/admin/login";
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("admintoken", res.data);
             // console.log(res.data)

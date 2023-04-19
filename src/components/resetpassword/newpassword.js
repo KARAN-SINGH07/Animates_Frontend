@@ -74,7 +74,7 @@ function NewPassword(props) {
     const changePassword =async()=>{
         if (validForm()){
             Object.assign(inputField,props)
-                let url='http://localhost:4000/otpsend/changepassword';
+                let url='https://animatesbackend.onrender.com/otpsend/changepassword';
                 let options={
                     method:'POST',
                     url: url,

@@ -7,7 +7,7 @@ function Product(props) {
             <div className="thumb-wrapper">
                 <span className="wish-icon"><i className="fa fa-heart-o"></i></span>
                 <div className="img-box">
-                <Link to={`/singleproduct/${props.id}`}><img src={`http://localhost:4000${props.image}`} className="img-fluid" alt={props.image} /></Link>
+                <Link to={`/singleproduct/${props.id}`}><img src={`https://animatesbackend.onrender.com${props.image}`} className="img-fluid" alt={props.image} /></Link>
 
                 </div>
                 <div className="thumb-content">

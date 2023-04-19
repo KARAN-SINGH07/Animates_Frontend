@@ -11,7 +11,7 @@ function SingleProduct() {
   useEffect(() => {
     const fetchProduct = async () => {
         
-        const { data } = await axios.get(`http://localhost:4000/productlisting/product/${id}`); 
+        const { data } = await axios.get(`https://animatesbackend.onrender.com/productlisting/product/${id}`); 
         console.log(data);     
       setProduct(data); 
      

@@ -23,7 +23,7 @@ import Contact from './components/contact/index';
 import ResetPassword from './components/resetpassword/index';
 import SingleProduct from './components/singleproduct/index';
 
-BASEURL = process.env.BASEURL
+// const BASEURL = process.env.BASEURL
 
 // import MainContent from './components/mainContent'
 // import Popper from 'popper.js';

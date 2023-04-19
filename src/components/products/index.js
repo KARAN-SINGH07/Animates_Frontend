@@ -7,7 +7,7 @@ import './products.css';
 import Product from "../products2/index";
 // import img from './imag/naruto.jpg'
 let arr;
-const url="http://localhost:4000/productlisting/getproduct";
+const url="https://animatesbackend.onrender.com/productlisting/getproduct";
 function Products() {
 	const navigate = useNavigate();
 	useEffect(() => {
@@ -27,7 +27,7 @@ function Products() {
 
 	
 	useEffect(() => {
-		axios.get('http://localhost:4000/productlisting/getproduct')
+		axios.get("https://animatesbackend.onrender.com/productlisting/getproduct")
 			.then((response) => {
 				
 				// console(response.data);	

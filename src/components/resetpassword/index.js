@@ -20,7 +20,7 @@ function ResetPassword() {
     const [otpForm,showForm]=useState(true);
     const sendOtp=async()=>{
         try{
-            let url='http://localhost:4000/otpsend/send';
+            let url='https://animatesbackend.onrender.com/otpsend/send';
             let options={
                 method:'POST',
                 url: url,

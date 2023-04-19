@@ -52,7 +52,7 @@ function Registration() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:4000/users/register";
+			const url = "https://animatesbackend.onrender.com/users/register";
 			const { data: res } = await axios.post(url, data);
 			navigate("/login");
 			console.log(res.message);

@@ -29,7 +29,7 @@ function DeleteProduct() {
     
 
     const postData=()=>{
-      axios.post('http://localhost:4000/productlisting/deleteproduct',{
+      axios.post('https://animatesbackend.onrender.com/productlisting/deleteproduct',{
           id
       }).then(()=>{
           history.push('/read')

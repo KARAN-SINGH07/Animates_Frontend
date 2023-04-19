@@ -32,7 +32,7 @@ function UpdateProduct() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:4000/productlisting/updateproduct";
+			const url = "https://animatesbackend.onrender.com/productlisting/updateproduct";
 			const { data: res } = await axios.post(url, data);
 			
 		} catch (error) {
